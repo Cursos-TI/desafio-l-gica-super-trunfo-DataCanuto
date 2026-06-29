@@ -103,9 +103,9 @@ int main() {
         printf("PIB per Capita: Carta 2 (%d)\n",resultPibPerCapita);
     }
     if(resultSuperPoder == 1){
-        printf("Super Poder: Carta 1 (%d)\n",resultSuperPoder);
+        printf("Super Poder: Carta 1 (%d)\nCarta 1 Venceu!\n%s Vencedora!",resultSuperPoder,nome1);
     }else{
-        printf("Super Poder: Carta 2 (%d)\n",resultSuperPoder);
+        printf("Super Poder: Carta 2 (%d)\nCarta 2 Venceu!\n%s Vencedora!",resultSuperPoder,nome2);
     }
     
     printf("\nPressione ENTER para encerrar o programa...\n");
@@ -114,20 +114,9 @@ int main() {
     return 0;
 
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
-
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
-
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
-
-    return 0;
 }
